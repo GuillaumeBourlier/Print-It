@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print it ! - Impressions d'entreprise</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="container">
+    <h1>
+        <img class="logo" src="./assets/images/logo.png" alt="Print it ! Impressions d'entreprises">
+    </h1>
+    <a class="btn devis" href="mailto:contact@print-it.tld">Devis</a>
+</header>
+
+<main>
+    <!-- Bannière avec carrousel -->
+    <div id="banner">
+        <img class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
+        <p>Impressions tous formats <span>en boutique et en ligne</span></p>
+
+        <!-- Flèches de navigation -->
+        <button class="arrow arrow_left" id="leftarrow">
+            <img src="./assets/images/arrow_left.png" alt="Flèche gauche">
+        </button>
+        
+        <button class="arrow arrow_right" id="rightarrow">
+            <img src="./assets/images/arrow_right.png" alt="Flèche droite">
+        </button>
+        
+        <!-- Points de navigation (dots) points en bas des images-->
+        <div class="dots"></div>
+    </div>
+
+    <section id="about-us" class="container">
+        <div>
+            <h2>Qui sommes-nous ?</h2>
+            <ul>
+                <li>Depuis près de 60 ans, nous sommes un imprimeur familial spécialisé dans les besoins d’entreprises de toute taille.</li>
+                <li>Implantés à Rennes, nous accompagnons nos clients dans leurs projets d’impression avec expertise et qualité.</li>
+            </ul>
+        </div>
+        <aside>
+            <img src="./assets/images/colors.jpg" alt="Palette multicolore">
+        </aside>
+    </section>
+
+    <section id="products" class="container">
+        <div>
+            <h2>Nos produits</h2>
+            <p>Nous proposons une large gamme de supports de communication : brochures, flyers, goodies, autocollants et bien plus encore.</p>
+        </div>
+        <aside>
+            <img src="./assets/images/yellow-book.jpg" alt="Livre jaune tenu par un imprimeur">
+        </aside>
+    </section>
+
+    <section id="question" class="bg-yellow">
+        <h2>Une question ? Un devis ?</h2>
+        <p>Appelez-nous au 02 12 34 56 78 ou faites une demande de devis :</p>
+        <a href="mailto:contact@print-it.tld" class="btn devis">Devis</a>
+    </section>
+
+    <section id="why-us" class="container">
+        <h2>Pourquoi faire appel à nous ?</h2>
+        <div>
+            <article>
+                <img src="./assets/images/proximity-icon.png" alt="Icône Proximité">
+                <h3>Proximité</h3>
+                <p>Notre équipe compétente est à votre écoute pour répondre à vos besoins d’impression.</p>
+            </article>
+            <article>
+                <img src="./assets/images/quality-icon.png" alt="Icône Qualité">
+                <h3>Qualité</h3>
+                <p>Des résultats professionnels garantis, quelle que soit la nature de votre projet.</p>
+            </article>
+            <article>
+                <img src="./assets/images/speedy-icon.png" alt="Icône Rapidité">
+                <h3>Rapidité</h3>
+                <p>Nous nous engageons à respecter vos délais pour un service efficace et fiable.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-lightblue">
+        <div class="container">
+            <div>
+                <h2>Contact</h2>
+                <div>
+                    <h3>Par téléphone</h3>
+                    <ul>
+                        <li>Appelez-nous au 02 12 34 56 78</li>
+                        <li>Horaires : Lun-Ven : 9h30-18h30, Sam : 10h-18h30</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Par e-mail</h3>
+                    <p>
+                        <a href="mailto:contact@print-it.tld" class="btn">Nous écrire</a>
+                    </p>
+                </div>
+                <div>
+                    <h3>En boutique</h3>
+                    <p>5, rue Yves Noël, 35200 Rennes<br>
+                        <img class="inline-icon" src="./assets/images/metro.png" alt="Métro"/> Clémenceau</p>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/magnifying-glass.jpg" alt="Loupe et palette bleue">
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <p class="footer-contact">Contact</p>
+        <ul>
+            <li>Appelez-nous au 02 12 34 56 78</li>
+            <li>Horaires : Lun-Ven : 9h30-18h30, Sam : 10h-18h30</li>
+        </ul>
+    </div>
+    <div>
+        <p>5, rue Yves Noël, 35200 Rennes<br>
+            <img src="./assets/images/metro.png" alt="Métro"/> Clémenceau</p>
+    </div>
+    <div>
+        <a href="mailto:contact@print-it.tld" class="btn">Nous écrire</a>
+        <a href="mailto:contact@print-it.tld?subject=Demande&nbsp;de&nbsp;devis" class="btn devis">Devis</a>
+    </div>
+    <div>
+        <img class="footer-logo" src="./assets/images/logo.png" alt="Print it ! Impressions d'entreprises">
+    </div>
+</footer>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
